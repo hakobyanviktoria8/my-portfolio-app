@@ -1,5 +1,7 @@
 .projects {
   padding: 30px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .title {

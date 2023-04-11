@@ -1,12 +1,17 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
+import styles from "./../styles/Navbar.module.css";
 
 export const Navbar = () => {
   return (
-      <div>
-          <Link href="/">Home</Link>
-          <Link href="/cv">CV</Link>
-          <Link href="/projects">Projects</Link>
+    <div className={styles.container}>
+      <Link href="/">Home</Link>
+      <div className={styles.mainNavBar}>
+        <Link href="/projects">Projects</Link>
+        <Link href="/experience">experience</Link>
+        <Link href="/education">education</Link>
+        <Link href="/cv">CV</Link>
+      </div>
     </div>
-  )
-}
+  );
+};

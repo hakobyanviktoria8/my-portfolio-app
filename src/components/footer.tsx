@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import styles from "./../styles/Footer.module.css";
 
 export const Footer = () => {
   return (
-    <div>Last update 02.03.2023</div>
-  )
-}
+    <div className={styles.container}>
+      <p>Last update 02.03.2023</p>
+    </div>
+  );
+};
