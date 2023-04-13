@@ -1,17 +1,11 @@
 .projects {
-  padding: 30px;
   width: 100%;
   overflow-x: hidden;
 }
 
-.title {
-  text-align: center;
-  font-size: 30px;
-  color: #3a3a3a;
-}
-
 .projects div {
   display: flex;
+  justify-content: center;
 }
 
 .projects div div {

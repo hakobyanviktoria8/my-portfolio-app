@@ -1,0 +1,45 @@
+.line {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.experienceWrapper {
+  padding: 10px 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.experienceWrapper > div {
+  width: 30%;
+}
+
+.experienceWrapper h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.experienceWrapper p {
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .line {
+    width: 90%;
+  }
+  
+  .experienceWrapper > div {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experienceWrapper {
+    flex-direction: column;
+  }
+
+  .experienceWrapper > div {
+    width: 90%;
+    margin: 10px auto;
+  }
+}

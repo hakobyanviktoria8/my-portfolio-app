@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <Layout>
       <div className={styles.projects}>
-        <h2 className={styles.title}>My projects</h2>
+        <h2 className="pageTitle">My projects</h2>
         <div>
           <div data-aos="fade-right">1</div>
           <div data-aos="fade-left">1</div>

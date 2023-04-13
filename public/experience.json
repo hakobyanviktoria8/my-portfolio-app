@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "companyName": "\"Upwork\" freelancing company",
+    "duration": "01.12.2022 - till now",
+    "position": "JavaScript developer",
+    "websiteLink": "https://www.upwork.com/nx/find-work/",
+    "websiteName": "Upwork",
+    "skills": "React.js, Next.js, Node.js, Express, TS, Redux"
+  },
+  {
+    "id": 1,
+    "companyName": "\"Hi Learn\" development company",
+    "duration": "01.07.2022 - 01.12.2022",
+    "position": "Front-End Engineer",
+    "websiteLink": "https://staging-marketplace-web.moneylion.io/personal-loan/loan-amount",
+    "websiteName": "Money Lion",
+    "skills": "React.js, TS, Redux, Styled Components"
+  },
+  {
+    "id": 2,
+    "companyName": "\"Cretrix\" software company",
+    "duration": "01.10.2021 - 15.05.2022",
+    "position": "Front-end developer",
+    "websiteLink": "https://amstest.net/sites",
+    "websiteName": "Amstest.net",
+    "skills": "(Next.js, SEO, Styled Components"
+  },
+  {
+    "id": 3,
+    "companyName": "\"Webmaker Studio\" dev company",
+    "duration": "15.03.2021 - 30.09.2021",
+    "position": "Full stack developer",
+    "websiteLink": "https://kidadl.com/",
+    "websiteName": "Kidadl.com",
+    "skills": "Next.js, Node.js, Tailwind CSS, AWS, TS"
+  },
+  {
+    "id": 4,
+    "companyName": "\"VooDoo Programming LLC\"",
+    "duration": "08.01.2021 - 15.03.2021",
+    "position": "Front-end developer",
+    "websiteLink": "https://biglemon.am/",
+    "websiteName": "Biglemon.am",
+    "skills": "HTML, Bootstrap, jQuery, PHP"
+  },
+  {
+    "id": 5,
+    "companyName": "\"Alan Turing\" school of programming",
+    "duration": "01.08.2020 - 25.12.2020",
+    "position": "Front-end React Intern",
+    "websiteLink": "",
+    "websiteName": "Alan Turing website",
+    "skills": "React.js, Redux, Team working, Agile"
+  },
+  {
+    "id": 6,
+    "companyName": "\"Global IT\" development company",
+    "duration": "01.06.2020 - 01.08.2020",
+    "position": "Front-end React Intern",
+    "websiteLink": "",
+    "websiteName": "Global IT website",
+    "skills": "React.js, Figma, Team working"
+  },
+  {
+    "id": 7,
+    "companyName": "Clever Programmer Challenge",
+    "duration": "08.01.2018 - till now",
+    "position": "Front-end JavaScript developer",
+    "websiteLink": "https://movie-project-react.vercel.app/",
+    "websiteName": "Movie",
+    "skills": "React.js, Next.js, CSS library, Figma, JS Functionality"
+  },
+  {
+    "id": 8,
+    "companyName": "Scrimba Weekly Challenge",
+    "duration": "01.09.2020 - till now",
+    "position": "Front-end developer",
+    "websiteLink": "https://hakobyanviktoria8.github.io/github-users/",
+    "websiteName": "GitHub Users",
+    "skills": "JS Frameworks, CSS library, UI/UX design"
+  },
+  {
+    "id": 9,
+    "companyName": "Armenian Code Academy",
+    "duration": "01.06.2020 - 15.07.2020",
+    "position": "Front-end React.js developer",
+    "websiteLink": "https://dms.licdn.com/playlist/C4E05AQE9QjwLHq4OdQ/mp4-720p-30fp-crf28/0/1679256415883?e=1682010000&v=beta&t=53CkSdiIOgwzGN-0w074CeHJ9NIm5EgKbdr5uW08GT0",
+    "websiteName": "Armenian trip",
+    "skills": "React.js, UI/UX design, Heroku, Google Map, Firebase, Tawk.to, Slack, Reactstrap"
+  }
+]
