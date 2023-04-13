@@ -23,11 +23,19 @@
   line-height: 24px;
 }
 
+/* otherExperience */
+.otherExperience {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 1024px) {
-  .line {
+  .line,
+  .otherExperience {
     width: 90%;
   }
-  
+
   .experienceWrapper > div {
     width: 45%;
   }

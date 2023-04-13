@@ -1,0 +1,65 @@
+[
+  {
+    "id": 0,
+    "companyName": "Sunny school",
+    "duration": "01.02.2021 - 30.04.2021",
+    "profession": "Node JS Developer",
+    "certificate": "Higher Certificate"
+  },
+  {
+    "id": 1,
+    "companyName": "Scrimba",
+    "duration": "01.05.2020 - 31.08.2020",
+    "profession": "The React Bootcamp",
+    "certificate": "Certificate"
+  },
+  {
+    "id": 2,
+    "companyName": "Armenian Code Academy",
+    "duration": "18.12.2019 - 30.06.2020",
+    "profession": "JS, React Developer",
+    "certificate": "Higher Certificate"
+  },
+  {
+    "id": 3,
+    "companyName": "BeeOnCode",
+    "duration": "01.02.2019 - 30.07.2019",
+    "profession": "Full-Stack Developer",
+    "certificate": "Higher Certificate"
+  },
+  {
+    "id": 4,
+    "companyName": "Clever Programmer Training School",
+    "duration": "08.01.2018 - 31.12.2019",
+    "profession": "Profit with javascript",
+    "certificate": "Certificate"
+  },
+  {
+    "id": 5,
+    "companyName": "Self-education",
+    "duration": "01.05.2017 - 01.02.2019",
+    "profession": "Front-end Developer",
+    "certificate": "Knowledge"
+  },
+  {
+    "id": 6,
+    "companyName": "Arkofarm",
+    "duration": "01.02.2012 - 30.06.2012",
+    "profession": "Pharmacy, Manager",
+    "certificate": "Higher Certificate"
+  },
+  {
+    "id": 7,
+    "companyName": "Armenian State Pedagogical University",
+    "duration": "01.09.2011 - 30.05.2013",
+    "profession": "Chemistry teacher",
+    "certificate": "National Diploma"
+  },
+  {
+    "id": 8,
+    "companyName": "National Polytechnic University of Armenia",
+    "duration": "01.09.2007 - 30.05.2011",
+    "profession": "Chemist technologist",
+    "certificate": "National Diploma"
+  }
+]

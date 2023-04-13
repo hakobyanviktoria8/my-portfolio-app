@@ -2,6 +2,7 @@ import Layout from "@/components/layout";
 import React from "react";
 import experienceData from "./../../public/experience.json";
 import { Experience } from "@/components/Experience";
+import styles from "./../styles/Experience.module.css";
 
 export type ExperienceDataType = {
   id: number;
@@ -22,6 +23,23 @@ const ExperienceComp = () => {
         experienceData.map((data: ExperienceDataType) => (
           <Experience key={data.id} data={data} />
         ))}
+
+      <br />
+      <h2 className="pageTitle">OTHER EXPERIENCE</h2>
+      <div className={styles.otherExperience}>
+        <h3>
+          Scientific Technological Center of Organic and Pharmaceutical
+          Chemistry
+        </h3>
+        <p>
+          Worked as a junior scientist and I made many research 01.06.2013 -
+          01.05.2015
+        </p>
+      </div>
+      <div className={styles.otherExperience}>
+        <h3>Arkofarm, Vip Concern Drug Center</h3>
+        <p>Worked as a marketing manager 01.06.2012 - 20.12.2012</p>
+      </div>
     </Layout>
   );
 };

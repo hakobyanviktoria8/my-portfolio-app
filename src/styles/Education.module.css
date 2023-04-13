@@ -1,0 +1,53 @@
+.line {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.educationWrapper {
+  padding: 10px 0 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.educationWrapper > div:first-child {
+  width: 40%;
+}
+
+.educationWrapper > div:last-child {
+  width: 20%;
+}
+
+.educationWrapper h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.educationWrapper p {
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .line {
+    width: 50%;
+  }
+
+  .educationWrapper > div:first-child {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .educationWrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .educationWrapper > div:first-child,
+  .educationWrapper > div:last-child {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
