@@ -5,12 +5,11 @@ import styles from "./../styles/Navbar.module.css";
 export const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Link href="/">Home</Link>
+      <Link href="/">VHV</Link>
       <div className={styles.mainNavBar}>
         <Link href="/projects">Projects</Link>
         <Link href="/experience">experience</Link>
         <Link href="/education">education</Link>
-        <Link href="/cv">CV</Link>
       </div>
     </div>
   );

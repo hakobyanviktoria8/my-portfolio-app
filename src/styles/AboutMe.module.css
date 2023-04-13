@@ -1,0 +1,46 @@
+.aboutMe {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.aboutMe > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutMe > p {
+  line-height: 24px;
+  text-align: center;
+}
+
+.followMe {
+  margin: 0 auto 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.followMe > a {
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.bgGrayAdd > b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: gray;
+  color: white;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe {
+    width: 100%;
+  }
+}
