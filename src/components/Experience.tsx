@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styles from "./../styles/Experience.module.css";
 
 export const Experience = ({ data }: any) => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
-      <div className={styles.experienceWrapper}>
+      <div className={styles.experienceWrapper} data-aos="fade-up">
         <div>
           <h3>{data.companyName}</h3>
           <p>{data.duration}</p>
@@ -24,7 +30,7 @@ export const Experience = ({ data }: any) => {
           </p>
         </div>
       </div>
-      <hr className={styles.line} />
+      <hr className={styles.line} data-aos="fade-up" />
     </>
   );
 };

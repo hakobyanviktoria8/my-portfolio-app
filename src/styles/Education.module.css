@@ -1,5 +1,5 @@
 .line {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1024px) {
   .line {
-    width: 50%;
+    width: 70%;
   }
 
   .educationWrapper > div:first-child {
