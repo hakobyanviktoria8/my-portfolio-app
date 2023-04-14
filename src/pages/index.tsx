@@ -39,16 +39,31 @@ const AboutMe = () => {
             href="https://www.linkedin.com/in/viktorya-hakobyan-8a6128199"
             target="_blank"
           >
-            <Image src="/linkedin.png" alt="linkedin" width={30} height={30} />
+            <Image
+              src="/images/linkedin.png"
+              alt="linkedin"
+              width={30}
+              height={30}
+            />
           </a>
           <a href="https://github.com/hakobyanviktoria8" target="_blank">
-            <Image src="/github.png" alt="github" width={30} height={30} />
+            <Image
+              src="/images/github.png"
+              alt="github"
+              width={30}
+              height={30}
+            />
           </a>
           <a
             href="https://react-project-six-zeta.vercel.app/users"
             target="_blank"
           >
-            <Image src="/website.png" alt="website" width={30} height={30} />
+            <Image
+              src="/images/website.png"
+              alt="website"
+              width={30}
+              height={30}
+            />
           </a>
           <a
             href="https://edabit.com/user/3aZvfgr2H2WF8Yog2"
@@ -73,7 +88,7 @@ const AboutMe = () => {
             download="Viktorya__CV.pdf"
           >
             <Image
-              src="/download.png"
+              src="/images/download.png"
               alt="download"
               width={40}
               height={35}
@@ -82,7 +97,7 @@ const AboutMe = () => {
           </a>
           <a href="mailto:hakobyanviktorya8@gmail.com" target="_blank">
             <Image
-              src="/email.png"
+              src="/images/email.png"
               alt="email"
               width={30}
               height={30}
