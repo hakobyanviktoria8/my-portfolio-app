@@ -16,6 +16,7 @@
 .container > .mainNavBar {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 60%;
 }
 
@@ -26,9 +27,41 @@
   font-size: 18px;
   font-family: sans-serif;
   text-transform: uppercase;
-  padding: 0 20px;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .logo {
+  background: gray;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 14px;
+}
+
+.container a > img {
+  margin-right: 10px;
 }
 
 .container .active {
-  color: #404040;
+  border-bottom: 1px solid;
+}
+
+.container .active .navLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0 20px;
+  }
+  .container a {
+    padding: 5px 10px;
+  }
+  .container a > img {
+    margin-right: 0;
+  }
 }

@@ -2,35 +2,36 @@ import Link from "next/link";
 import React from "react";
 import styles from "./../styles/Navbar.module.css";
 import { useRouter } from "next/router";
+import { NavBarLink } from "./NavBarLink";
+import navBarLinkData from "../../public/json/navLink.json";
+
+type NavBarLinkDataType = {
+  id: number;
+  href: string;
+  name: string;
+};
 
 export const Navbar = () => {
   const router = useRouter();
 
-  console.log(1111111111, router.pathname);
   return (
     <div className={styles.container}>
-      <Link href="/" className={router.pathname === "/" ? styles.active : ""}>
+      <Link
+        href="/"
+        className={
+          router.pathname === "/"
+            ? `${styles.active} ${styles.logo}`
+            : styles.logo
+        }
+      >
         VHV
       </Link>
+
       <div className={styles.mainNavBar}>
-        <Link
-          href="/projects"
-          className={router.pathname == "/projects" ? styles.active : ""}
-        >
-          Projects
-        </Link>
-        <Link
-          href="/experience"
-          className={router.pathname == "/experience" ? styles.active : ""}
-        >
-          experience
-        </Link>
-        <Link
-          href="/education"
-          className={router.pathname == "/education" ? styles.active : ""}
-        >
-          education
-        </Link>
+        {navBarLinkData &&
+          navBarLinkData.map((data: NavBarLinkDataType) => (
+            <NavBarLink key={data.id} data={data} />
+          ))}
       </div>
     </div>
   );
