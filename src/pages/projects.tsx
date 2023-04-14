@@ -1,37 +1,26 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import styles from "./../styles/Projects.module.css";
 import Layout from "@/components/layout";
+import { Project } from "@/components/Project";
+import projectsData from "./../../public/json/projects.json";
 
-const Projects = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+type ProjectsDataType = {
+  id: number;
+};
 
+const ProjectsComp = () => {
   return (
     <Layout>
       <div className={styles.projects}>
         <h2 className="pageTitle">My projects</h2>
-        <div>
-          <div data-aos="fade-right">1</div>
-          <div data-aos="fade-left">1</div>
-        </div>
-        <div>
-          <div data-aos="fade-right">1</div>
-          <div data-aos="fade-left">1</div>
-        </div>
-        <div>
-          <div data-aos="fade-right">1</div>
-          <div data-aos="fade-left">1</div>
-        </div>
-        <div>
-          <div data-aos="fade-right">1</div>
-          <div data-aos="fade-left">1</div>
-        </div>
+
+        {projectsData &&
+          projectsData.map((data: ProjectsDataType) => (
+            <Project key={data.id} data={data} />
+          ))}
       </div>
     </Layout>
   );
 };
 
-export default Projects;
+export default ProjectsComp;

@@ -1,6 +1,6 @@
 import Layout from "@/components/layout";
 import React from "react";
-import experienceData from "./../../public/experience.json";
+import experienceData from "./../../public/json/experience.json";
 import { Experience } from "@/components/Experience";
 import styles from "./../styles/Experience.module.css";
 

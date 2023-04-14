@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "projectName": "Biglemon",
+    "skills": "HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, Heroku",
+    "link": "https://biglemon.am/",
+    "name": "biglemon.am",
+    "status": "live",
+    "discription": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "imgSrc": "/projectsImg/biglemon1.jpg",
+    "moreDetails": ""
+  },
+  {
+    "id": 1,
+    "projectName": "Armenian trip",
+    "skills": "React.js, Firebase, Reactstrap, Heroku, Slack, Tawk.to",
+    "link": "https://biglemon.am/",
+    "name": "biglemon.am",
+    "status": "live",
+    "discription": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "imgSrc": "/projectsImg/biglemon1.jpg",
+    "moreDetails": ""
+  },
+  {
+    "id": 2,
+    "projectName": "Covid-19",
+    "skills": "React.js, Leaflet Map, Reactstrap, Chart js graph, API, Numeral",
+    "link": "https://biglemon.am/",
+    "name": "biglemon.am",
+    "status": "live",
+    "discription": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "imgSrc": "/biglemon1.jpg",
+    "moreDetails": ""
+  },
+  {
+    "id": 3,
+    "projectName": "Movie React",
+    "skills": "React.js, Reactstrap, API, Figma, Youtube",
+    "link": "https://biglemon.am/",
+    "name": "biglemon.am",
+    "status": "live",
+    "discription": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "imgSrc": "/biglemon1.jpg",
+    "moreDetails": ""
+  },
+  {
+    "id": 4,
+    "projectName": "Weekly Chalang",
+    "skills": "React.js, CSS, Tailwind CSS, Styled components, API, Figma, TS, Redux",
+    "link": "https://biglemon.am/",
+    "name": "biglemon.am",
+    "status": "live",
+    "discription": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "imgSrc": "/biglemon1.jpg",
+    "moreDetails": ""
+  }
+]

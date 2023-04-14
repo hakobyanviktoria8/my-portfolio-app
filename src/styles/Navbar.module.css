@@ -7,6 +7,10 @@
   padding: 0 40px;
   box-sizing: border-box;
   box-shadow: 0 0 10px gray;
+  position: sticky;
+  top: 0px;
+  z-index: 50;
+  background: white;
 }
 
 .container > .mainNavBar {

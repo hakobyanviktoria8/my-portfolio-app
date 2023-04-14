@@ -1,7 +1,7 @@
 import { Education } from "@/components/Education";
 import Layout from "@/components/layout";
 import React from "react";
-import educationData from "./../../public/education.json";
+import educationData from "./../../public/json/education.json";
 
 type EducationDataType = {
   id: number;
