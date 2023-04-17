@@ -8,3 +8,13 @@
   box-sizing: border-box;
   box-shadow: 0 0 10px gray;
 }
+
+.container > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > a > img {
+  margin-left: 10px;
+}
