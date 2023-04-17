@@ -11,7 +11,7 @@ type NavBarLinkDataType = {
   name: string;
 };
 
-export const Navbar = () => {
+const Navbar = () => {
   const router = useRouter();
 
   return (
@@ -36,3 +36,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;
