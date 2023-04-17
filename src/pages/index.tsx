@@ -84,8 +84,9 @@ const AboutMe = () => {
             </b>
           </a>
           <a
-            href="http://localhost:3000/Viktorya__CV.pdf"
+            href="https://my-portfolio-app-psi.vercel.app/Viktorya__CV.pdf"
             download="Viktorya__CV.pdf"
+            target="_blank"
           >
             <Image
               src="/images/download.png"
