@@ -93,8 +93,7 @@
   align-items: center;
   justify-content: center;
   border: none;
-  display: -webkit-box;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
 }
 
@@ -125,6 +124,12 @@
 .liveProjects > .linksWrapper > a > h4 {
   font-size: 18px;
   margin: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .liveProjects > .linksWrapper {
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (max-width: 768px) {
