@@ -37,6 +37,10 @@ const ExperienceComp = () => {
         </p>
       </div>
       <div className={styles.otherExperience}>
+        <h3>&quot;Al & Al`&quot; LLC</h3>
+        <p>Worked as an Accountant 08.01.2013 - 31.05.2013</p>
+      </div>
+      <div className={styles.otherExperience}>
         <h3>Arkofarm, Vip Concern Drug Center</h3>
         <p>Worked as a marketing manager 01.06.2012 - 20.12.2012</p>
       </div>
