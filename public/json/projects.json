@@ -47,10 +47,10 @@
     "id": 4,
     "projectName": "Games and challenges",
     "skills": "React.js, CSS, Tailwind CSS, Styled components, API, Figma, TS, Redux, Vercel",
-    "link": "https://react-project-six-zeta.vercel.app/",
+    "link": "https://react-project-six-zeta.vercel.app/users",
     "name": "Testing tasks and games",
     "status": "staging",
-    "discription": "I Collected my test tasks in this project. I prefer reusable, clear, readable and easy to modify code. The tasks were very different, I performed the work according to the requirements.",
+    "discription": "I Collected my test tasks in this project. I prefer reusable, clear, readable and easy to modify code. The tasks were very different, I performed the work according to the requirements. It isn't responsive.",
     "imgSrc": "/projectsImg/game.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/react-project"
   },
