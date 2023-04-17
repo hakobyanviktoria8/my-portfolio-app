@@ -17,7 +17,7 @@
     "link": "https://movie-project-react.vercel.app/",
     "name": "Movie project",
     "status": "staging",
-    "discription": "This was my weekly challenge participation project, which was declared the winner. The used of youtube thriller was new to me in this project. I also worked the design for this project.",
+    "discription": "This was my weekly challenge participation project, which was declared the winner. The use of youtube thriller feature was new to me in this project. I also created the design for this project.",
     "imgSrc": "/projectsImg/movieProject1.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/movieProjectReact"
   },
@@ -28,7 +28,7 @@
     "link": "https://dms.licdn.com/playlist/C4E05AQE9QjwLHq4OdQ/mp4-720p-30fp-crf28/0/1679256415883?e=1682290800&v=beta&t=tH4aO1vzM80D62W_EBS1VRvDEDg4M1iN6XMF8ZEv_4s",
     "name": "Armenian trip",
     "status": "staging",
-    "discription": "This was my academic project. In this project I used my own generated API, React Hook Form for validation, React Router 6 to organized nesting routing. For support my users I used Tawk.to and Slack.",
+    "discription": "This was my academic project. In this project I used my own generated API, React Hook Form for validation, React Router 6 for organized nested routing. To support my users I used Tawk.to and Slack.",
     "imgSrc": "/projectsImg/avProject.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/avartakan-project"
   },
@@ -39,7 +39,7 @@
     "link": "https://hakobyanviktoria8.github.io/VooDoo_Viktorya/",
     "name": "biglemon.am",
     "status": "staging",
-    "discription": "This project is my first live project and I like it. Working on this project, I strengthened my knowledge of content writer, responsive design, and also I had chance work backend part, organise routing.",
+    "discription": "This project is my first live project and I like it. Working on this project, I strengthened my knowledge of content writer, responsive design, and also I had a chance to work on the backend part, to organise routing.",
     "imgSrc": "/projectsImg/biglemon1.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/VooDoo_Viktorya"
   },
@@ -50,7 +50,7 @@
     "link": "https://react-project-six-zeta.vercel.app/",
     "name": "Testing tasks and games",
     "status": "staging",
-    "discription": "I Collected my test tasks in this project. I prefer reusable, clear, readable and easy to modifiable code. The tasks were very different, I performed the works according to the requirements.",
+    "discription": "I Collected my test tasks in this project. I prefer reusable, clear, readable and easy to modify code. The tasks were very different, I performed the work according to the requirements.",
     "imgSrc": "/projectsImg/game.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/react-project"
   },
@@ -61,7 +61,7 @@
     "link": "https://hakobyanviktoria8.github.io/covid-19-react/",
     "name": "Covid-19 map",
     "status": "staging",
-    "discription": "This is one of my weekly challenge projects. Saddest project I've ever worked on. However, this was a new opportunity for me to gain new knowledge and skills",
+    "discription": "This is one of my weekly challenge projects. Saddest project I've ever worked on. However, this was a new opportunity for me to gain a new knowledge and skills.",
     "imgSrc": "/projectsImg/covid1.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/covid-19-react"
   }
