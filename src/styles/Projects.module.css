@@ -39,6 +39,18 @@
   opacity: 0;
 }
 
+.imgCard > div > a {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCard > div > a > img {
+  margin: 0 8px;
+}
+
 .imgCard:hover > div {
   display: flex;
   justify-content: center;
@@ -56,6 +68,63 @@
 .imgCard > div > p {
   text-align: center;
   color: black;
+}
+
+/* liveProjects styles */
+.liveProjects {
+  min-height: 300px;
+  width: 100%;
+  flex-direction: column;
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+.liveProjects > p {
+  text-align: center;
+  font-size: 20px;
+  margin: 14px;
+}
+
+.liveProjects > .linksWrapper {
+  width: 100%;
+  margin: 0;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  display: -webkit-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.liveProjects > .linksWrapper > a {
+  border: 1px solid rgb(239, 239, 239);
+  height: 270px;
+  width: 200px;
+  display: block;
+  margin: 0 14px;
+  padding: 20px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  min-width: 220px;
+}
+
+.liveProjects > .linksWrapper > a:hover {
+  box-shadow: 0 0 10px rgb(239, 239, 239);
+}
+
+.liveProjects > .linksWrapper > a > img {
+  width: 190px !important;
+  position: initial !important;
+  height: 150px !important;
+}
+
+.liveProjects > .linksWrapper > a > h4 {
+  font-size: 18px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 768px) {

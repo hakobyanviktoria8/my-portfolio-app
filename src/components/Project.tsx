@@ -31,7 +31,16 @@ export const Project = ({ data }: any) => {
       </div>
       <div data-aos="fade-left" className={styles.imgCard}>
         <div>
-          <p>See more details</p>
+          <a href={data.moreDetails} target="_blank">
+            Check{" "}
+            <Image
+              src="/images/githubRepo.png"
+              alt="linkedin"
+              width={30}
+              height={30}
+            />{" "}
+            repository
+          </a>
         </div>
 
         <Image

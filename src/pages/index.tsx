@@ -12,7 +12,7 @@ const AboutMe = () => {
         <p>
           I can work on your site using my JS framework skills, collect a
           responsive design with your favorite library, also I can be useful for
-          working with database.
+          working with databases.
         </p>
         <p>
           I&apos;m an enthusiastic self-organized person who loves working in a

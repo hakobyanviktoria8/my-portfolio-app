@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "projectName": "Money Lion",
+    "skills": "React.js, TS, Redux, Styled components, Jest",
+    "link": "https://staging-marketplace-web.moneylion.io/personal-loan/loan-amount",
+    "imgSrc": "/liveProjects/moneylion.jpg"
+  },
+  {
+    "id": 1,
+    "projectName": "Hilearn.io",
+    "skills": "React.js, Styled components, Jest, SEO",
+    "link": "https://www.hilearn.io/",
+    "imgSrc": "/liveProjects/hilearn.jpg"
+  },
+  {
+    "id": 2,
+    "projectName": "Amstest.net",
+    "skills": "Next.js, SEO, Styled Components",
+    "link": "https://amstest.net/sites",
+    "imgSrc": "/liveProjects/ams.jpg"
+  },
+  {
+    "id": 3,
+    "projectName": "Kidadl.com",
+    "skills": "Next.js, Node.js, Tailwind CSS, AWS, TS",
+    "link": "https://kidadl.com/",
+    "imgSrc": "/liveProjects/kidadl.jpg"
+  },
+  {
+    "id": 4,
+    "projectName": "Biglemon.am",
+    "skills": "HTML, Bootstrap, jQuery, PHP",
+    "link": "https://biglemon.am/",
+    "imgSrc": "/liveProjects/biglemon.jpg"
+  }
+]
