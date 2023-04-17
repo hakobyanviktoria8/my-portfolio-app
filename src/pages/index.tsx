@@ -107,7 +107,7 @@ const AboutMe = () => {
 
           <a href="tel:+37494333518">
             <Image
-              src="/call.png"
+              src="/images/call.png"
               alt="call"
               width={30}
               height={30}
