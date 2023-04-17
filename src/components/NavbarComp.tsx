@@ -11,7 +11,7 @@ type NavBarLinkDataType = {
   name: string;
 };
 
-const Navbar = () => {
+const NavbarComp = () => {
   const router = useRouter();
 
   return (
@@ -37,4 +37,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarComp;
