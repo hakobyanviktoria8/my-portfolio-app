@@ -1,17 +1,6 @@
 [
   {
     "id": 0,
-    "projectName": "AI Image Generator",
-    "skills": "Next.js, Vercel, OpenAI, SWR, TS, Tailwind CSS",
-    "link": "https://ai-image-generator-tau.vercel.app/",
-    "name": "Chat GTP Image Generator",
-    "status": "staging",
-    "discription": "This was my last weekly challenge. I like to discover new things. This project presents recently popular Chat GTP features. We can generate a new suggestion, then create an image according to that suggestion.",
-    "imgSrc": "/projectsImg/aiImageGener.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/ai_image_generator"
-  },
-  {
-    "id": 1,
     "projectName": "Movie Project",
     "skills": "React.js, Reactstrap, API, Figma, Youtube",
     "link": "https://movie-project-react.vercel.app/",
@@ -22,15 +11,26 @@
     "moreDetails": "https://github.com/hakobyanviktoria8/movieProjectReact"
   },
   {
-    "id": 2,
+    "id": 1,
     "projectName": "Armenian trip",
     "skills": "React.js, Firebase, Reactstrap, Heroku, Slack, Tawk.to, gh-pages, ",
-    "link": "https://dms.licdn.com/playlist/C4E05AQE9QjwLHq4OdQ/mp4-720p-30fp-crf28/0/1679256415883?e=1682290800&v=beta&t=tH4aO1vzM80D62W_EBS1VRvDEDg4M1iN6XMF8ZEv_4s",
+    "link": "https://firebasestorage.googleapis.com/v0/b/armeniantrip-71a46.appspot.com/o/video.mp4?alt=media&token=66cd41c4-646c-4227-940e-35594c4fc450",
     "name": "Armenian trip",
     "status": "staging",
     "discription": "This was my academic project. In this project I used my own generated API, React Hook Form for validation, React Router 6 for organized nested routing. To support my users I used Tawk.to and Slack.",
     "imgSrc": "/projectsImg/avProject.jpg",
     "moreDetails": "https://github.com/hakobyanviktoria8/avartakan-project"
+  },
+  {
+    "id": 2,
+    "projectName": "AI Image Generator",
+    "skills": "Next.js, Vercel, OpenAI, SWR, TS, Tailwind CSS",
+    "link": "https://ai-image-generator-tau.vercel.app/",
+    "name": "Chat GTP Image Generator",
+    "status": "staging",
+    "discription": "This was my last weekly challenge. I like to discover new things. This project presents recently popular Chat GTP features. We can generate a new suggestion, then create an image according to that suggestion.",
+    "imgSrc": "/projectsImg/aiImageGener.jpg",
+    "moreDetails": "https://github.com/hakobyanviktoria8/ai_image_generator"
   },
   {
     "id": 3,
