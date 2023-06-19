@@ -32,7 +32,7 @@ const ProjectsComp = () => {
         <h2 className="pageTitle">My live projects</h2>
         <div className={styles.liveProjects}>
           <p>
-            During my 2+ working years, I worked on many interesting projects. I
+            During my 2.5+ working years, I worked on many interesting projects. I
             suggest getting acquainted with some of them:
           </p>
           <div className={styles.linksWrapper}>

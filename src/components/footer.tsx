@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <div className={styles.container}>
-      <p>Last update 02.03.2023</p>
+      <p>Last update 20.06.2023</p>
       <a href="https://github.com/hakobyanviktoria8/my-portfolio-app">
         Portfolio source{" "}
         <Image
