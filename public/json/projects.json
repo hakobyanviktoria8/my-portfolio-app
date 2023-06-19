@@ -1,5 +1,29 @@
 [
   {
+    "id": 7,
+    "projectName": "IntimFlorts",
+    "skills": "React.js, API, Vercel, Material UI, Redux, Translate",
+    "link": "https://intim-florts-rho.vercel.app/",
+    "name": "IntimFlorts",
+    "status": "staging",
+    "discription": "This is the second project for my client on a freelance platform, and I am grateful for the trust they have placed in me. It is an incredibly rewarding and fulfilling experience.",
+    "imgSrc": "/projectsImg/intimFlorts1.jpg",
+    "moreDetails": "https://github.com/hakobyanviktoria8/intim_florts",
+    "figmaLink": ""
+  },
+  {
+    "id": 6,
+    "projectName": "Self help snaps",
+    "skills": "React.js, Firebase, API, Figma, Vercel, Tailwind CSS",
+    "link": "https://selfhelpsnaps.vercel.app/",
+    "name": "SelfhelpSnaps",
+    "status": "staging",
+    "discription": "This is one of my recent freelance projects where I had the opportunity to create the design and then proceed with the frontend development.",
+    "imgSrc": "/projectsImg/selfhelpsnaps1.jpg",
+    "moreDetails": "",
+    "figmaLink": "https://www.figma.com/file/LdogQkuvxppYMa9CYqvggH/Untitled?type=design&node-id=0%3A1&t=H9KAWwRt7XMFxh6s-1"
+  },
+  {
     "id": 0,
     "projectName": "Movie Project",
     "skills": "React.js, Reactstrap, API, Figma, Youtube",
@@ -8,7 +32,8 @@
     "status": "staging",
     "discription": "This was my weekly challenge participation project, which was declared the winner. The use of youtube thriller feature was new to me in this project. I also created the design for this project.",
     "imgSrc": "/projectsImg/movieProject1.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/movieProjectReact"
+    "moreDetails": "https://github.com/hakobyanviktoria8/movieProjectReact",
+    "figmaLink": "https://www.figma.com/file/tLmHuLf0srURsV2cGacO8e/Untitled?type=design&node-id=0%3A1&t=JbaRQu0rxFFfwaRM-1"
   },
   {
     "id": 1,
@@ -19,7 +44,8 @@
     "status": "staging",
     "discription": "This was my academic project. In this project I used my own generated API, React Hook Form for validation, React Router 6 for organized nested routing. To support my users I used Tawk.to and Slack.",
     "imgSrc": "/projectsImg/avProject.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/avartakan-project"
+    "moreDetails": "https://github.com/hakobyanviktoria8/avartakan-project",
+    "figmaLink": "https://www.figma.com/file/OVVdBw8kd5eUQDocU0egwW/ArmenianTrip?type=design&t=gStYegwyPdFqBtK9-1"
   },
   {
     "id": 2,
@@ -30,7 +56,8 @@
     "status": "staging",
     "discription": "This was my last weekly challenge. I like to discover new things. This project presents recently popular Chat GTP features. We can generate a new suggestion, then create an image according to that suggestion.",
     "imgSrc": "/projectsImg/aiImageGener.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/ai_image_generator"
+    "moreDetails": "https://github.com/hakobyanviktoria8/ai_image_generator",
+    "figmaLink": ""
   },
   {
     "id": 3,
@@ -41,7 +68,8 @@
     "status": "staging",
     "discription": "This project is my first live project and I like it. Working on this project, I strengthened my knowledge of content writer, responsive design, and also I had a chance to work on the backend part, to organise routing.",
     "imgSrc": "/projectsImg/biglemon1.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/VooDoo_Viktorya"
+    "moreDetails": "https://github.com/hakobyanviktoria8/VooDoo_Viktorya",
+    "figmaLink": ""
   },
   {
     "id": 4,
@@ -52,7 +80,8 @@
     "status": "staging",
     "discription": "I Collected my test tasks in this project. I prefer reusable, clear, readable and easy to modify code. The tasks were very different, I performed the work according to the requirements. It isn't responsive.",
     "imgSrc": "/projectsImg/game.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/react-project"
+    "moreDetails": "https://github.com/hakobyanviktoria8/react-project",
+    "figmaLink": ""
   },
   {
     "id": 5,
@@ -63,6 +92,7 @@
     "status": "staging",
     "discription": "This is one of my weekly challenge projects. Saddest project I've ever worked on. However, this was a new opportunity for me to gain a new knowledge and skills.",
     "imgSrc": "/projectsImg/covid1.jpg",
-    "moreDetails": "https://github.com/hakobyanviktoria8/covid-19-react"
+    "moreDetails": "https://github.com/hakobyanviktoria8/covid-19-react",
+    "figmaLink": ""
   }
 ]

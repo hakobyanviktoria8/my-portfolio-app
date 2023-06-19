@@ -28,19 +28,29 @@ export const Project = ({ data }: any) => {
         <p>
           <b>Discription:</b> {data.discription}
         </p>
+        {data.figmaLink && (
+          <p>
+            <b>Figma:</b>{" "}
+            <a href={data.figmaLink} target="_blank">
+              Link here
+            </a>
+          </p>
+        )}
       </div>
       <div data-aos="fade-left" className={styles.imgCard}>
         <div>
-          <a href={data.moreDetails} target="_blank">
-            Check{" "}
-            <Image
-              src="/images/githubRepo.png"
-              alt="linkedin"
-              width={30}
-              height={30}
-            />{" "}
-            repository
-          </a>
+          {data.moreDetails && (
+            <a href={data.moreDetails} target="_blank">
+              Check{" "}
+              <Image
+                src="/images/githubRepo.png"
+                alt="linkedin"
+                width={30}
+                height={30}
+              />{" "}
+              repository
+            </a>
+          )}
         </div>
 
         <Image
